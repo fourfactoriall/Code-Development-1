@@ -72,7 +72,8 @@ set a breakpoint : let's introduce a break point, say line 5.
 
 ``` (gdb) b 5
 Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
-(gdb) | ```
+(gdb) |
+```
 
 if you want to put breakpoint at different lines, you can type "b line_number".
 By default "list or l" display only first 10 lines.
