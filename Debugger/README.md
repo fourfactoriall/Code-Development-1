@@ -17,13 +17,15 @@ The GNU Debugger (GDB) is a highly versatile and widely used debugger for Linux.
 The GDB have 2 way to install
   1. Installing by Command
      
-     ```sudo yum check-update
-     sudo yum install gdb
+     ```sudo apt update
+     sudo apt install gdb
 
      # Output:
-     # 'Loaded plugins: fastestmirror, ovl'
-     # 'Loading mirror speeds from cached hostfile'
-     # 'Package gdb is already installed.'
+     # 'Reading package lists... Done'
+     # 'Building dependency tree'
+     # 'Reading state information... Done'
+     # 'gdb is already the newest version (8.1-0ubuntu3).'
+     # '0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.'
      ```
      
   2. Installind by Sourcee Code
@@ -48,6 +50,7 @@ The GDB have 2 way to install
      # 'make[2]: Leaving directory '/home/user/gdb-10.2'
      # 'make[1]: Leaving directory '/home/user/gdb-10.2'
      ```
+     
 #### Useful GDB commands: ####
 
 command | Description 
@@ -66,12 +69,21 @@ continue | Continues normal execution
 
 example:
 set a breakpoint : let's introduce a break point, say line 5.
+
 ``` (gdb) b 5
 Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
 (gdb) | ```
+
 if you want to put breakpoint at different lines, you can type "b line_number".
 By default "list or l" display only first 10 lines.
 
 #### The LLDB Debugger ####
+
+reference
+https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+https://installati.one/install-lldb-ubuntu-20-04/
+https://ioflood.com/blog/install-gdb-command-linux/#:~:text=In%20most%20Linux%20distributions%2C%20the,command%20sudo%20yum%20install%20gdb%20.
+https://www.sourceware.org/gdb/
+https://www.scaler.com/topics/linux-debugger/
  
      
