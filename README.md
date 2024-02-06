@@ -18,14 +18,25 @@ Readme.md CheatSheet here >> https://github.com/tchapi/markdown-cheatsheet/blob/
   <b>2. Interpreter (ตัวแปลภาษา): </b> Linux มี Interpreter ที่มากมายที่นิยมใช้ แบ่งแยกตามภาษาโปรแกรมที่ใช้ เช่น Python Interpreter, Ruby Interpreter, Perl Interpreter เป็นต้น
 </p>
 <p>
-  <b>3. Compiler (คอมไพเลอร์): </b> คอมไพเลอร์ใช้สำหรับแปลงโค้ดจากภาษาโปรแกรมให้กลายเป็นรหัสเครื่อง ซึ่งใน Linux มี Compiler ต่างๆ เช่น GCC (GNU Compiler Collection) สำหรับภาษา C/C++, LLVM/Clang Compiler เป็นต้น \n
+  <b>3. Compiler (คอมไพเลอร์): </b> คอมไพเลอร์ใช้สำหรับแปลงโค้ดจากภาษาโปรแกรมให้กลายเป็นรหัสเครื่อง ซึ่งใน Linux มี Compiler ต่างๆ เช่น GCC (GNU Compiler Collection) สำหรับภาษา C/C++, LLVM/Clang Compiler เป็นต้น
 </p>
 <p>
-  <b>4. Debugger (เครื่องมือตรวจสอบโค้ด): </b> เครื่องมือ Debugging ช่วยในการตรวจสอบและแก้ไขข้อผิดพลาดในโค้ด โดย Linux มี Debugger ต่างๆ เช่น GDB (GNU Debugger), Valgrind, LLDB และ Visual Code Studio เป็นต้น \n
+  <b>4. Debugger (เครื่องมือตรวจสอบโค้ด): </b> เครื่องมือ Debugging ช่วยในการตรวจสอบและแก้ไขข้อผิดพลาดในโค้ด โดย Linux มี Debugger ต่างๆ เช่น GDB (GNU Debugger), Valgrind, LLDB และ Visual Code Studio เป็นต้น
 </p>
 <p>
-  <b>5. DevTool (Development Tools): </b> มักใช้สำหรับพัฒนาและจัดการโค้ด มี IDE หรือ Text Editors ที่นิยมใช้ใน Linux เช่น Visual Studio Code, Sublime Text, Emacs, Vim เป็นต้น \n
+  <b>5. DevTool (Development Tools): </b> มักใช้สำหรับพัฒนาและจัดการโค้ด มี IDE หรือ Text Editors ที่นิยมใช้ใน Linux เช่น Visual Studio Code, Sublime Text, Emacs, Vim เป็นต้น
 </p>
 <p>
   <b>6. Web Development Tools: </b> (เครื่องมือพัฒนาเว็บ): สำหรับการพัฒนาเว็บไซต์ นอกจาก Text Editors และ IDE ที่ใช้สำหรับการเขียนโค้ด HTML, CSS, และ JavaScript แล้ว ยังมีเครื่องมืออื่นๆ เช่น Frameworks (React, Angular, Vue.js), CSS Preprocessors (Sass, Less), และ Web Browsers with Developer Tools (Chrome DevTools, Firefox Developer Tools) เป็นต้น
 </p>
+
+## Constibuter ##
+รหัสนักศึกษา | ชื่อ & นามสกุล | ส่วนที่รับผิดชอบ | ภาพสมาชิก
+-------- | -------------------- | ------------ | ----------
+65070023 |  นางสาว กุลนันท์ สุนันท์	 |             |
+65070052 |	นาย ชินาธิป  หวู        |	           |
+65070053 |	นางสาว ชุติกาญจน์  ใจคง |	           |
+65070062 |	นาย ณภัทร  มากสมบูรณ์	|            |
+65070069 |	นางสาว ณัฐชา  ฤทธิ์คำรพ	|            |
+65070084 |	นาย ณัฐวัตร  จันโท	    |            |
+65070243 |	นาย สุเมธา  ปานกลาง    |            |
