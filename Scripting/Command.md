@@ -103,3 +103,30 @@ Greater than|	num1 -gt num2 |	is num1 greater than num2
 Less than equal to |	num1 -le num2 |	is num1 less than equal to num2
 Less than |	num1 -lt num2 |	is num1 less than num2
 Not Equal to |	num1 -ne num2 |	is num1 not equal to num2
+
+#### Syntax:
+```
+if [ conditions ]
+    then
+         commands
+fi
+```
+<b>Example >>> </b>
+```
+read x
+read y
+
+if [ $x -gt $y ]
+then
+echo X is greater than Y
+elif [ $x -lt $y ]
+then
+echo X is less than Y
+elif [ $x -eq $y ]
+then
+echo X is equal to Y
+fi
+```
+
+## Conditional Statements (Decision Making)
+Conditions are expressions that evaluate to a boolean expression (true or false). To check conditions, we can use if, if-else, if-elif-else and nested conditionals.
