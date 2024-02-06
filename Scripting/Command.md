@@ -42,6 +42,7 @@ echo $greeting $name
 
 ### Arithmetic Expressions
 Below are the operators supported by bash for mathematical calculations:
+
 |OPERATOR | USAGE 
 |-------- | ------
 |+        | addition
@@ -50,6 +51,7 @@ Below are the operators supported by bash for mathematical calculations:
 | /	       | division
 | **       |	exponentiation
 | %	      | modulus
+
 <b>Examples >>> </b>
 ```
 expr 10 + 10000
