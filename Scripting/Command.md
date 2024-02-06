@@ -4,7 +4,9 @@
 
 ### Find the path to your bash shell.
 
-``` which bash ```
+``` 
+which bash
+```
 
 In my case, the path is ` /usr/bin/bash ` and I will include this in the shebang.
 
