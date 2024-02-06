@@ -5,11 +5,11 @@
 ### What are the Best Linux Debuggers you can Use on Linux? ###
 #### GNU Debugger (GDB) ####
 The GNU Debugger (GDB) is a highly versatile and widely used debugger for Linux. As an open-source tool, GDB provides developers with an extensive range of features and capabilities to effectively analyze and debug their programs.
-####* What can GDB do?####
-    *Set breakpoints: Pause program execution at specific points to examine variables and analyze behavior.
-    *Step through code: Execute code line-by-line, inspecting changes and identifying issues.
-    *Inspect variables: View values of variables at any point, understanding data flow and potential errors.
-    *Modify variables: Change variable values during debugging to test outcomes and pinpoint root causes.
-    *Print expressions: Calculate values on the fly using expressions, gaining insights into program logic.
-    *Examine memory: Analyze memory contents for potential corruption or unexpected values.
+#### * What can GDB do?####
+    -Set breakpoints: Pause program execution at specific points to examine variables and analyze behavior.
+    -Step through code: Execute code line-by-line, inspecting changes and identifying issues.
+    -Inspect variables: View values of variables at any point, understanding data flow and potential errors.
+    -Modify variables: Change variable values during debugging to test outcomes and pinpoint root causes.
+    -Print expressions: Calculate values on the fly using expressions, gaining insights into program logic.
+    -Examine memory: Analyze memory contents for potential corruption or unexpected values.
 
