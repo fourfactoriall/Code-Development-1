@@ -21,7 +21,7 @@ Readme.md CheatSheet here >> https://github.com/tchapi/markdown-cheatsheet/blob/
   <b>3. Compiler (คอมไพเลอร์): </b> คอมไพเลอร์ใช้สำหรับแปลงโค้ดจากภาษาโปรแกรมให้กลายเป็นรหัสเครื่อง ซึ่งใน Linux มี Compiler ต่างๆ เช่น GCC (GNU Compiler Collection) สำหรับภาษา C/C++, LLVM/Clang Compiler เป็นต้น
 </p>
 <p>
-  <b>4. Debugger (เครื่องมือตรวจสอบโค้ด): </b> เครื่องมือ Debugging ช่วยในการตรวจสอบและแก้ไขข้อผิดพลาดในโค้ด โดย Linux มี Debugger ต่างๆ เช่น GDB (GNU Debugger), Valgrind, LLDB และ Visual Code Studio เป็นต้น
+  <b>4. Debugger (เครื่องมือตรวจสอบโค้ด): </b> เครื่องมือ Debugging ช่วยในการตรวจสอบและแก้ไขข้อผิดพลาดในโค้ด โดย Linux มี Debugger ต่างๆ เช่น GDB (GNU Debugger), Valgrind, LLDB เป็นต้น
 </p>
 <p>
   <b>5. DevTool (Development Tools): </b> มักใช้สำหรับพัฒนาและจัดการโค้ด มี IDE หรือ Text Editors ที่นิยมใช้ใน Linux เช่น Visual Studio Code, Sublime Text, Emacs, Vim เป็นต้น
