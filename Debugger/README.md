@@ -21,7 +21,8 @@ The GDB have 2 way to install
      # Output:
      # 'Loaded plugins: fastestmirror, ovl'
      # 'Loading mirror speeds from cached hostfile'
-     # 'Package gdb is already installed.'```
+     # 'Package gdb is already installed.'
+     ```
   2. Installind by Sourcee Code
      ``` wget http://ftp.gnu.org/gnu/gdb/gdb-10.2.tar.xz
      tar -xvf gdb-10.2.tar.xz
@@ -40,6 +41,7 @@ The GDB have 2 way to install
      # 'make[2]: Nothing to be done for 'install-exec-am'.
      # 'make[2]: Nothing to be done for 'install-data-am'.
      # 'make[2]: Leaving directory '/home/user/gdb-10.2'
-     # 'make[1]: Leaving directory '/home/user/gdb-10.2'```
+     # 'make[1]: Leaving directory '/home/user/gdb-10.2'
+     ```
  
      
