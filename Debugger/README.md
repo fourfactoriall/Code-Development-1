@@ -15,6 +15,7 @@ The GNU Debugger (GDB) is a highly versatile and widely used debugger for Linux.
 #### How to installing the GDB ####
 The GDB have 2 way to install
   1. Installing by Command
+     
      ```sudo yum check-update
      sudo yum install gdb
 
@@ -23,7 +24,9 @@ The GDB have 2 way to install
      # 'Loading mirror speeds from cached hostfile'
      # 'Package gdb is already installed.'
      ```
+     
   2. Installind by Sourcee Code
+  
      ``` wget http://ftp.gnu.org/gnu/gdb/gdb-10.2.tar.xz
      tar -xvf gdb-10.2.tar.xz
      cd gdb-10.2
