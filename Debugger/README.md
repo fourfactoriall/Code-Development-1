@@ -70,7 +70,9 @@ continue | Continues normal execution
 example:
 set a breakpoint : let's introduce a break point, say line 5.
 
-``` (gdb) b 5
+
+```
+(gdb) b 5
 Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
 (gdb) |
 ```
