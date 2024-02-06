@@ -76,11 +76,13 @@ Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
 ```
 
 if you want to put breakpoint at different lines, you can type "b line_number".
+
 By default "list or l" display only first 10 lines.
 
 #### The LLDB Debugger ####
 
 reference
+
 https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 https://installati.one/install-lldb-ubuntu-20-04/
 https://ioflood.com/blog/install-gdb-command-linux/#:~:text=In%20most%20Linux%20distributions%2C%20the,command%20sudo%20yum%20install%20gdb%20.
