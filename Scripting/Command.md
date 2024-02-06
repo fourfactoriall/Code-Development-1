@@ -1,7 +1,7 @@
 # Basic of Shell Script
 ### Create file Shell script
-
-```touch hello_world.sh
+```
+touch hello_world.sh
 ```
 
 ### Find the path to your bash shell.
