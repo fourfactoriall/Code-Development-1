@@ -45,11 +45,11 @@ Below are the operators supported by bash for mathematical calculations:
 OPERATOR | USAGE
 -------- | ------
 +        | addition
--        | subtruction
-*	| multiplication
-/	| division
-** |	exponentiation
-%	| modulus
+  -        | subtruction
+ *	       | multiplication
+ /	       | division
+ **       |	exponentiation
+ %	      | modulus
 <b>Examples >>> </b>
 ```
 expr 10 + 10000
