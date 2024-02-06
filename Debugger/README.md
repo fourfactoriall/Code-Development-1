@@ -30,6 +30,7 @@ The GDB have 2 way to install
      ./configure
      make
      sudo make install
+
      # Output:
      # 'config.status: creating Makefile'
      # 'config.status: creating config.h'
