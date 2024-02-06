@@ -47,5 +47,31 @@ The GDB have 2 way to install
      # 'make[2]: Leaving directory '/home/user/gdb-10.2'
      # 'make[1]: Leaving directory '/home/user/gdb-10.2'
      ```
+#### Useful GDB commands: ####
+
+command | Description 
+--------| -----------
+run or r|Executes the program from start to end.
+break or b | Sets a breakpoint on a particular line.
+disable | Disables a breakpoint
+enable | Enables a disabled breakpoint
+next or n | Executes the next line of code without diving into functions.
+step | Goes to the next instruction, diving into the fuction.
+list or l | Display the code.
+print or p | Displays the value of a variable.
+quit or q | Exits out of GDB.
+clear | Clars all breakpoints.
+continue | Continues normal execution
+
+example:
+set a breakpoint : let's introduce a break point, say line 5.
+``` (gdb) b 5
+Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
+(gdb) |
+```
+if you want to put breakpoint at different lines, you can type "b line_number".
+By default "list or l" display only first 10 lines.
+
+#### The LLDB Debugger ####
  
      
