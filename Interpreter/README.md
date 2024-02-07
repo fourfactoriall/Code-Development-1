@@ -59,7 +59,7 @@ How do interpreters work?
 * Perl interpreter: Executes Perl scripts. 
 * PHP interpreter: Executes PHP scripts for web development.
 
-####Advantages and disadvantages of interpreters:
+### Advantages and disadvantages of interpreters:
 
 **Advantages:** 
 
@@ -179,12 +179,11 @@ Interpreters are powerful tools in Linux, but their use comes with certain consi
 
 By exploring these topics, you can gain a deeper understanding of the potential risks and best practices associated with using interpreters in Linux. This knowledge empowers you to use these tools effectively and securely
 
-<br/>
 - - - -
+<br/>
 
 ## resources
 * Open Web Application Security Project (OWASP) Top 10: https://owasp.org/Top10/: https://owasp.org/Top10/ 
-* SANS Institute Reading Room: https://www.sans.org/reading-room: https://www.sans.org/reading-room
 * Center for Internet Security (CIS) Benchmarks for Linux: https://benchmarks.cisecurity.org/downloads:
 * Bash Guide for Beginners: https://tldp.org/guides.html: https://tldp.org/guides.html 
 * GNU Coreutils Documentation: https://www.gnu.org/software/coreutils/: https://www.gnu.org/software/coreutils/ 
