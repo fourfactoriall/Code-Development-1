@@ -85,6 +85,8 @@ By default "list or l" display only first 10 lines.
 
 ` gdb `
 
+![307](https://github.com/Chinjuku/Code-Development-1/assets/109953279/bf17e3df-7729-4d39-bd1f-be8fa1c5ee83)
+
 
 
 
