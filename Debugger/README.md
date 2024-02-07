@@ -82,8 +82,10 @@ if you want to put breakpoint at different lines, you can type "b line_number".
 By default "list or l" display only first 10 lines.
 
 -Start GDB
+
 ` gdb `
-[picture alt](https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp "Title is optional")
+
+
 
 
 #### The LLDB Debugger ####
