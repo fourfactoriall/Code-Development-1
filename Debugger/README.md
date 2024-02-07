@@ -4,7 +4,7 @@
   A debugger is a software tool used by developers to identify and fix issues in computer programs. It provides a controlled environment for monitoring and analyzing program execution, allowing developers to understand the behavior of their code and diagnose problems.
   Debuggers are essential for software development, helping to streamline the debugging process and improve overall code quality.
 ### What are the Best Linux Debuggers you can Use on Linux? ###
-#### GNU Debugger (GDB) ####
+### GNU Debugger (GDB) ###
 The GNU Debugger (GDB) is a highly versatile and widely used debugger for Linux. As an open-source tool, GDB provides developers with an extensive range of features and capabilities to effectively analyze and debug their programs.
 ####  What can GDB do? ####
   - Set breakpoints: Pause program execution at specific points to examine variables and analyze behavior.
@@ -80,6 +80,11 @@ Breakpoint 1 at 0x5555555546a8: file test.c, line 5.
 if you want to put breakpoint at different lines, you can type "b line_number".
 
 By default "list or l" display only first 10 lines.
+
+-Start GDB
+` gdb `
+[picture alt](https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp "Title is optional")
+
 
 #### The LLDB Debugger ####
 
