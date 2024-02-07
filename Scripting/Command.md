@@ -130,3 +130,124 @@ fi
 
 ## Conditional Statements (Decision Making)
 Conditions are expressions that evaluate to a boolean expression (true or false). To check conditions, we can use if, if-else, if-elif-else and nested conditionals.
+
+The structure of conditional statements is as follows: <br>
+
+* `if...then...fi` statements
+* `if...then...else...fi` statements
+* `if..elif..else..fi`
+* `if..then..else..if..then..fi..fi..` (Nested Conditionals)
+
+Syntax: <br>
+
+```
+if [[ condition ]]
+then
+	statement
+elif [[ condition ]]; then
+	statement 
+else
+	do this by default
+fi
+```
+
+To create meaningful comparisons, we can use AND `-a` and OR `-o` as well.
+
+The below statement translates to: If `a` is greater than 40 and b is less than 6. <br>
+`if [ $a -gt 40 -a $b -lt 6 ]` <br>
+
+<b>Example >>> </b>
+```
+read a
+read b
+read c
+
+if [ $a == $b -a $b == $c -a $a == $c ]
+then
+echo EQUILATERAL
+
+elif [ $a == $b -o $b == $c -o $a == $c ]
+then 
+echo ISOSCELES
+else
+echo SCALENE
+
+fi
+```
+## Looping and skipping ##
+For loops allow you to execute statements a specific number of times.
+
+### Looping with numbers: ###
+In the example below, the loop will iterate 5 times.
+
+```
+for i in {1..5}
+do
+    echo $i
+done
+```
+### Looping with strings:
+We can loop through strings as well.
+```
+for X in cyan magenta yellow  
+do
+	echo $X
+done
+```
+
+### While loop
+While loops check for a condition and loop until the condition remains `true`. We need to provide a counter statement that increments the counter to control loop execution. <br>
+
+In the example below, (( i += 1 )) is the counter statement that increments the value of i.
+
+<b>Example >>> </b>
+```
+i=1
+while [[ $i -le 10 ]] ; do
+   echo "$i"
+  (( i += 1 ))
+done
+```
+
+## Reading files
+Suppose we have a file `sample_file.txt` as shown below:
+
+![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/commandscripting.png)
+
+```
+LINE=1
+
+while read -r CURRENT_LINE
+	do
+		echo "$LINE: $CURRENT_LINE"
+    ((LINE++))
+done < "sample_file.txt"
+```
+
+![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/commandscriptoutput.png)
+
+### How to execute commands with back ticks
+If you need to include the output of a complex command in your script, you can write the statement inside back ticks.
+
+Syntax:
+` var= '`' commands '`' `
+
+Example: Suppose we want to get the output of a list of mountpoints with `tmpfs` in their name. We can craft a statement like this: `df -h | grep tmpfs`.
+
+```
+var=`df -h | grep tmpfs`
+echo $var
+```
+
+### How to get arguments for scripts from the command line
+It is possible to give arguments to the script on execution.
+`$@` represents the position of the parameters, starting from one.
+
+```
+for x in $@
+do
+    echo "Entered arg is $x"
+done
+```
+Run it like this:
+`./script arg1 arg2`
