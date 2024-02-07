@@ -133,49 +133,33 @@ To launch lldb:
 `lldb-3.9`
 
 #### Debugger commands ####
-
-  apropos           -- List debugger commands related to a word or subject.
-  breakpoint        -- Commands for operating on breakpoints (see 'help b' for
-                       shorthand.)
-  bugreport         -- Commands for creating domain-specific bug reports.
-  command           -- Commands for managing custom LLDB commands.
-  disassemble       -- Disassemble specified instructions in the current
-                       target.  Defaults to the current function for the
-                       current thread and stack frame.
-  expression        -- Evaluate an expression on the current thread.  Displays
-                       any returned value with LLDB's default formatting.
-  frame             -- Commands for selecting and examing the current thread's
-                       stack frames.
-  gdb-remote        -- Connect to a process via remote GDB server.  If no host
-                       is specifed, localhost is assumed.
-  gui               -- Switch into the curses based GUI mode.
-  help              -- Show a list of all debugger commands, or give details
-                       about a specific command.
-  kdp-remote        -- Connect to a process via remote KDP server.  If no UDP
-                       port is specified, port 41139 is assumed.
-  language          -- Commands specific to a source language.
-  log               -- Commands controlling LLDB internal logging.
-  memory            -- Commands for operating on memory in the current target
-                       process.
-  platform          -- Commands to manage and create platforms.
-  plugin            -- Commands for managing LLDB plugins.
-  process           -- Commands for interacting with processes on the current
-                       platform.
-  quit              -- Quit the LLDB debugger.
-  register          -- Commands to access registers for the current thread and
-                       stack frame.
-  script            -- Invoke the script interpreter with provided code and
-                       display any results.  Start the interactive interpreter
-                       if no code is supplied.
-  settings          -- Commands for managing LLDB settings.
-  source            -- Commands for examining source code described by debug
-                       information for the current target process.
-  target            -- Commands for operating on debugger targets.
-  thread            -- Commands for operating on one or more threads in the
-                       current process.
-  type              -- Commands for operating on the type system.
-  version           -- Show the LLDB debugger version.
-  watchpoint        -- Commands for operating on watchpoints.
+ - **_apropos:_** -- List debugger commands related to a word or subject.
+ - **_breakpoint:_** -- Commands for operating on breakpoints (see 'help b' for shorthand.)
+ - **_bugreport:_** -- Commands for creating domain-specific bug reports.
+ - **_command_** -- Command for managing custom LLDB commands.
+ - **_disassemble_** -- Disassemble specified instructions in the current target.  Defaults to the current function for the current thread and stack frame.
+ - **_expression_** -- Evaluate an expression on the current thread.  Displays any returned value with LLDB's default formatting.
+ - **_frame_** -- Commands for selecting and examing the current thread's stack frames.
+ - **_gdb-remote_** -- Connect to a process via remote GDB server.  If no host is specifed, localhost is assumed.
+ - **_gui_** -- Switch into the curses based GUI mode.
+ - **_help_** -- Show a list of all debugger commands, or give details about a specific command.
+ - **_kdp-remote_** -- Connect to a process via remote KDP server.  If no UDP port is specified, port 41139 is assumed.
+ - **_language_** -- Commands specific to a source language.
+ - **_log_** -- Commands controlling LLDB internal logging.
+ - **_memory_** -- Commands for operating on memory in the current target process.
+ - **_platform_** -- Commands to manage and create platforms.
+ - **_plugin_** -- Commands for managing LLDB plugins.
+ - **_process_** -- Commands for interacting with processes on the current platform.
+ - **_quit_** -- Quit the LLDB debugger.
+ - **_register_** -- Commands to access registers for the current thread and stack frame.
+ - **_script_** -- Invoke the script interpreter with provided code and display any results.  Start the interactive interpreter if no code is supplied.
+ - **_settings_** -- Commands for managing LLDB settings.
+ - **_source_** -- Commands for examining source code described by debug information for the current target process.
+ - **_target_** -- Commands for operating on debugger targets.
+ - **_thread_** -- Commands for operating on one or more threads in the current process.
+ - **_type_** -- Commands for operating on the type system.
+ - **_watchpoint_** -- Commands for operating on watchpoints.
+ - **_version_** -- Show the LLDB debugger version.
 
 ### reference
 <details>
