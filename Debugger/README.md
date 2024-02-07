@@ -177,14 +177,20 @@ To launch lldb:
   version           -- Show the LLDB debugger version.
   watchpoint        -- Commands for operating on watchpoints.
 
-reference
+### reference
+<details>
+<summary>GDB :</summary>
+  <p>https://www.geeksforgeeks.org/gdb-step-by-step-introduction/</p>
+  <p>https://ioflood.com/blog/install-gdb-command-linux/#:~:text=In%20most%20Linux%20distributions%2C%20the,command%20sudo%20yum%20install%20gdb%20.</p>
+  <p>https://www.sourceware.org/gdb/</p>
+  <p>https://www.scaler.com/topics/linux-debugger/</p>
+</details>
 
-https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
-https://installati.one/install-lldb-ubuntu-20-04/
-https://ioflood.com/blog/install-gdb-command-linux/#:~:text=In%20most%20Linux%20distributions%2C%20the,command%20sudo%20yum%20install%20gdb%20.
-https://www.sourceware.org/gdb/
-https://www.scaler.com/topics/linux-debugger/
-https://lldb.llvm.org
-https://gist.github.com/wanyakun/314690093ea195d749fca6869ebf200e
+<details>
+<summary>LLDB :</summary>
+  <p>https://installati.one/install-lldb-ubuntu-20-04/</p>
+  <p>https://lldb.llvm.org</p>
+  <p>https://gist.github.com/wanyakun/314690093ea195d749fca6869ebf200e</p>
+</details>
  
      
