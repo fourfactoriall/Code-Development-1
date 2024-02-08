@@ -150,7 +150,22 @@ The output of running the compiled program `my_program` would be
             <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/c_result.png?raw=true" />
 </p>
 
----
+----
+
+## Interesting matters
+
+### Precautions
+* ***Warnings:*** Pay attention to compiler warnings! They often indicate potential bugs or security vulnerabilities. Use options like `-Wall` to enable comprehensive warnings and learn to understand and address them.
+
+* ***Sanitizers:*** Utilize tools like AddressSanitizer (ASan) and UndefinedBehaviorSanitizer (UBSan) to detect memory errors and undefined behavior at compile time. These can help catch subtle bugs before they cause problems in production.
+
+* ***Stay updated:*** Use the latest version of GCC whenever possible. Newer versions often include bug fixes and security patches.
+
+## Bug
+
+* Like any complex software, GCC can have bugs. These can lead to unexpected behavior, compilation errors, or even security vulnerabilities. It's important to report any bugs you encounter to the GCC developers so they can be fixed. <br />
+You can find information about known bugs and their status on the GCC bug tracker: [GCC Bugzilla](https://gcc.gnu.org/bugzilla/)
+----
 
 # References
 
