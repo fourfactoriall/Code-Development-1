@@ -45,8 +45,11 @@ The terminal takes the input from the user in the form of commands and displays 
 
 1. The very first step is to update the packages. This command is used to download package information from all configured sources and to get the info of the updated versions of the packages.
 
-            sudo apt-get update
-   
+```
+sudo apt-get update
+```
+
+<br />
 <p align="center">
             <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/gcc_install1.png?raw=true" />
 </p>
@@ -56,7 +59,10 @@ The terminal takes the input from the user in the form of commands and displays 
 <br />
 <br />
 
-            sudo apt install build-essential
+```
+sudo apt install build-essential
+```
+
 <br />
 <br />
 
@@ -71,7 +77,9 @@ The terminal takes the input from the user in the form of commands and displays 
 <br />
 <br />
 
-            gcc --version
+```
+gcc --version
+```
 
 <br />
 <p align="center">
@@ -116,3 +124,28 @@ int main() {
 }
 ```
 
+<br />
+
+
+The result of this compilation is the creation of an executable file named `my_program` from the `hello.c`
+
+```
+ gcc hello.c -o my_program
+```
+
+<br />
+
+We can then run it using `./my_program` and the expected output on the screen should be `"Hello World"`
+
+```
+./my_program
+```
+
+<br />
+
+The output of running the compiled program `my_program` would be
+
+
+<p>
+            <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/c_result.png?raw=true" />
+</p>
