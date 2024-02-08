@@ -230,7 +230,7 @@ done < "sample_file.txt"
 If you need to include the output of a complex command in your script, you can write the statement inside back ticks.
 
 Syntax:
-` var= '`' commands '`' `
+``` var= `commands` ```
 
 Example: Suppose we want to get the output of a list of mountpoints with `tmpfs` in their name. We can craft a statement like this: `df -h | grep tmpfs`.
 
@@ -251,3 +251,46 @@ done
 ```
 Run it like this:
 `./script arg1 arg2`
+
+### How to Automate Scripts by Scheduling via cron Jobs
+
+Cron is a job scheduling utility present in Unix like systems. You can schedule jobs to execute daily, weekly, monthly or in a specific time of the day. Automation in Linux heavily relies on cron jobs. <br>
+
+Below is the syntax to schedule crons:
+```
+# Cron job example
+* * * * * sh /path/to/script.sh
+```
+Here, `*` in code represents minute(s) hour(s) day(s) month(s) weekday(s), respectively. <br>
+
+Below are some examples of scheduling cron jobs.
+
+SCHEDULE | SCHEDULED VALUE
+-------- | ---------------
+5 0 * 8 * |	At 00:05 in August.
+5 4 * * 6 |	At 04:05 on Saturday.
+0 22 * * 1-5 |	At 22:00 on every day-of-week from Monday through Friday.
+
+You can learn about cron in detail in this <u> blog </u> post.
+
+## How to Check Existing Scripts in a System
+
+### Using crontab
+`crontab -l` lists the already scheduled scripts for a particular user.
+
+![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/crontab.png)
+
+### Using the find command
+The `find` command helps to locate files based on certain patterns. As most of the scripts end with `.sh`, we can use the `find` script like this:
+
+```
+find . -type f -name "*.sh"
+```
+
+Where,
+
+* `.` represents the current directory. You can change the path accordingly.
+* `-type f` indicates that the file type we are looking for is a text based file.
+* `*.sh` tells to match all files ending with `.sh`.
+
+![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/shcommand.png)
