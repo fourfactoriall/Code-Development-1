@@ -149,3 +149,19 @@ The output of running the compiled program `my_program` would be
 <p>
             <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/c_result.png?raw=true" />
 </p>
+
+---
+
+# References
+
+https://www.techtarget.com/whatis/definition/compiler
+
+https://www.geeksforgeeks.org/introduction-of-compiler-design/
+
+https://www.javatpoint.com/gcc-linux
+
+https://linuxsimply.com/gcc-linux/
+
+https://gcc.gnu.org/onlinedocs/
+
+https://www.geeksforgeeks.org/how-to-install-gcc-compiler-on-linux/
