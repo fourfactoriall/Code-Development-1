@@ -77,6 +77,9 @@ The terminal takes the input from the user in the form of commands and displays 
 <p align="center">
             <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/gcc_install3.png?raw=true" />
 </p>
+
+Now, we have successfully installed the GCC on Linux.
+
 <br />
 
 ----
@@ -97,5 +100,19 @@ Here's what each part means:
 
 * `[source files]` : These are the source files (C or C++ files) that you want to compile.
 * `[-o output file]` : This option specifies the name of the output file. If omitted, the default output file is usually a.out.
+----
+### Example of GCC Compiler
 
+This program is a simple one that prints "Hello, world!" to the screen using the printf() function from the stdio.h library and returns 0 when the program finishes execution with the return 0; statement.
+
+#### C Language
+
+``` c
+// This code is on hello.c file.
+
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
 
