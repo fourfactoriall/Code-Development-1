@@ -46,25 +46,40 @@ The terminal takes the input from the user in the form of commands and displays 
 1. The very first step is to update the packages. This command is used to download package information from all configured sources and to get the info of the updated versions of the packages.
 
             sudo apt-get update
-
-![gcc_install1]()
-
+   
+<p align="center">
+            <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/gcc_install1.png?raw=true" />
+</p>
+<br />
+<br />
 2. Now we have to install the build-essential packages, which is also known as a meta-package, it contains the GCC compiler all the other essentials used to compile the software written in C and C++ language.
+<br />
+<br />
 
             sudo apt install build-essential
+<br />
+<br />
 
-![gcc_install2]()
+3. Now press `y` to continue gcc install or press `n` to abort an install.
 
-4. Now press `y` to continue gcc install or press `n` to abort an install.
-
-![gcc_install3]()
-
-6. After the second command it will install GCC on your Linux, to verify it is installed correctly, check the version of the GCC.
+<p align="center">
+            <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/gcc_install2.png?raw=true" />
+</p>
+<br />
+<br />
+4. After the second command it will install GCC on your Linux, to verify it is installed correctly, check the version of the GCC.
+<br />
+<br />
 
             gcc --version
 
-![gcc_install4]()
+<br />
+<p align="center">
+            <img src="https://github.com/KanNattawat/Comor-Project-image/blob/main/gcc_install3.png?raw=true" />
+</p>
+<br />
 
+----
 ### GCC Command
 * ***gcc:*** This is the command itself.
 In Linux, the gcc command is used to compile C and C++ programs. Below is a basic syntax along with some common options:
